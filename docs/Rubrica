@@ -1,0 +1,17 @@
+# Checklist de Entrega
+
+- [ ] URL Streamlit funcional
+- [ ] bronze.csv y silver.csv subidos a `/data`
+- [ ] README con decisiones justificadas (5V → elecciones), capturas en `docs/`
+- [ ] Diccionario (`docs/diccionario.md`) y gobernanza (`docs/gobernanza.md`) completos
+
+---
+
+# Rúbrica de Evaluación (10 puntos)
+
+| Criterio                  | Puntos | Descripción                                                                                  |
+|---------------------------|--------|----------------------------------------------------------------------------------------------|
+| Diseño / Justificación     | 3      | Claridad y coherencia en el diseño del pipeline (ingesta, validación, normalización, DW).    |
+| Calidad de Datos           | 3      | Efectividad en la validación, limpieza, y normalización de los datos.                        |
+| Trazabilidad y Data Warehouse | 2      | Implementación de linaje, versionado y almacenamiento en capas (bronze, silver).            |
+| Documentación             | 2      | Calidad, completitud y claridad en el README, diccionario, gobernanza y demás documentos.    |
